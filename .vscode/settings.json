@@ -1,13 +1,4 @@
 {
     "editor.rulers": [120],
-    "editor.formatOnSave": true,
-    "solidity.packageDefaultDependenciesContractsDirectory": "src",
-    "solidity.packageDefaultDependenciesDirectory": "lib",
-    "solidity.compileUsingRemoteVersion": "v0.8.24+commit.e11b9ed9",
-    "[solidity]": {
-        "editor.defaultFormatter": "JuanBlanco.solidity"
-    },
-    "solidity.formatter": "forge",
-    // Only one version per project, also should be remote check docs
-    "solidity.defaultCompiler": "remote"
+    "editor.formatOnSave": true
 }
