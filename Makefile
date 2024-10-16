@@ -8,3 +8,5 @@ Force :; @forge script script/Force.s.sol:Force --rpc-url ${RPC_URL} --private-k
 
 King :; @forge script script/King.s.sol:King --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
 
+ReEntrancy :; @forge script script/ReEntrancy.s.sol:ReEntrancy --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
+
