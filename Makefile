@@ -10,3 +10,4 @@ King :; @forge script script/King.s.sol:King --rpc-url ${RPC_URL} --private-key 
 
 ReEntrancy :; @forge script script/ReEntrancy.s.sol:ReEntrancy --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
 
+Elevator :; @forge script script/Elevator.s.sol:Elevator --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
