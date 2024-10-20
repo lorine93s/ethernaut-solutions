@@ -24,7 +24,7 @@ contract GatekeeperOne is Script {
         vm.startBroadcast();
 
         Entrant entrant = new Entrant();
-        entrant.enter(0xAd019F3De67251461357fFf547cDdcdB37E592dD);
+        entrant.enter(0x82ba5dc726D678b31fFa5A2861F70e7006B9bF48);
 
         vm.stopBroadcast();
     }
