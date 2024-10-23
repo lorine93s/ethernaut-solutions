@@ -14,4 +14,4 @@ Elevator :; @forge script script/Elevator.s.sol:Elevator --rpc-url ${RPC_URL} --
 
 GatekeeperOne :; @forge script script/GatekeeperOne.s.sol:GatekeeperOne --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
 
-GatekeeperTwo :; @forge script script/GatekeeperTwo.s.sol:GatekeeperTwo --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
+Preservation :; @forge script script/Preservation.s.sol:Preservation --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}

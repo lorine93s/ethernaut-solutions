@@ -12,6 +12,7 @@
         "no-console": "warn",
         "ordering": "warn",
         "private-vars-leading-underscore": ["warn", { "strict": false }],
-        "no-global-import": false
+        "no-global-import": false,
+        "no-unused-vars": "off"
     }
 }
