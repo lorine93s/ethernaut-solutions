@@ -2,7 +2,7 @@
     "extends": "solhint:recommended",
     "rules": {
         "avoid-tx-origin": "off",
-        "compiler-version": ["error", "^0.8.0"],
+        "compiler-version": ["error", "^0.6.0"],
         "func-name-mixedcase": "off",
         "func-param-name-mixedcase": "warn",
         "func-order": "warn",

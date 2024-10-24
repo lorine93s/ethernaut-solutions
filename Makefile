@@ -17,3 +17,5 @@ GatekeeperOne :; @forge script script/GatekeeperOne.s.sol:GatekeeperOne --rpc-ur
 Preservation :; @forge script script/Preservation.s.sol:Preservation --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
 
 Recovery :; @forge script script/Recovery.s.sol:Recovery --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
+
+AlienCodex :; @forge script script/AlienCodex.s.sol:AlienCodex --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}

@@ -3,7 +3,8 @@
 src = 'src'
 out = 'out'
 libs = ['lib']
-solc_version = '0.8.24'
+auto_detect_solc = true # Enable auto-detection of solc versions, this allows the use of files with different solc versions
+
 
 [fmt]
 # These are all the `forge fmt` defaults. (Formatting)
