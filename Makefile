@@ -19,3 +19,5 @@ Preservation :; @forge script script/Preservation.s.sol:Preservation --rpc-url $
 Recovery :; @forge script script/Recovery.s.sol:Recovery --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
 
 AlienCodex :; @forge script script/AlienCodex.s.sol:AlienCodex --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
+
+Denial :; @forge script script/Denial.s.sol:Denial --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
