@@ -13,6 +13,7 @@
         "ordering": "warn",
         "private-vars-leading-underscore": ["warn", { "strict": false }],
         "no-global-import": false,
-        "no-unused-vars": "off"
+        "no-unused-vars": "off",
+        "no-inline-assembly": "off"
     }
 }

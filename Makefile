@@ -21,3 +21,5 @@ Recovery :; @forge script script/Recovery.s.sol:Recovery --rpc-url ${RPC_URL} --
 AlienCodex :; @forge script script/AlienCodex.s.sol:AlienCodex --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
 
 Denial :; @forge script script/Denial.s.sol:Denial --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
+
+Shop :; @forge script script/Shop.s.sol:Shop --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
