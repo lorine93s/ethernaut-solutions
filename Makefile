@@ -23,3 +23,5 @@ AlienCodex :; @forge script script/AlienCodex.s.sol:AlienCodex --rpc-url ${RPC_U
 Denial :; @forge script script/Denial.s.sol:Denial --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
 
 Shop :; @forge script script/Shop.s.sol:Shop --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
+
+DexTwo :; @forge script script/DexTwo.s.sol:DexTwo --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
