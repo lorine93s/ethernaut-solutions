@@ -27,3 +27,5 @@ Shop :; @forge script script/Shop.s.sol:Shop --rpc-url ${RPC_URL} --private-key 
 DexTwo :; @forge script script/DexTwo.s.sol:DexTwo --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
 
 PuzzleWallet :; @forge script script/PuzzleWallet.s.sol:PuzzleWallet --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
+
+GoodSamaritan :; @forge script script/GoodSamaritan.s.sol:GoodSamaritan --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv
