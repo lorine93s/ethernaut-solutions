@@ -31,3 +31,5 @@ PuzzleWallet :; @forge script script/PuzzleWallet.s.sol:PuzzleWallet --rpc-url $
 GoodSamaritan :; @forge script script/GoodSamaritan.s.sol:GoodSamaritan --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv
 
 GatekeeperThree :; @forge script script/GatekeeperThree.s.sol:GatekeeperThree --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv
+
+DoubleEntryPoint :; @forge script script/DoubleEntryPoint.s.sol:DoubleEntryPoint --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv
