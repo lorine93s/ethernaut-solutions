@@ -33,3 +33,5 @@ GoodSamaritan :; @forge script script/GoodSamaritan.s.sol:GoodSamaritan --rpc-ur
 GatekeeperThree :; @forge script script/GatekeeperThree.s.sol:GatekeeperThree --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv
 
 DoubleEntryPoint :; @forge script script/DoubleEntryPoint.s.sol:DoubleEntryPoint --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv
+
+Switch :; @forge script script/Switch.s.sol:Switch --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv
