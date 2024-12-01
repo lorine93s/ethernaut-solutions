@@ -37,3 +37,5 @@ DoubleEntryPoint :; @forge script script/DoubleEntryPoint.s.sol:DoubleEntryPoint
 Switch :; @forge script script/Switch.s.sol:Switch --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv
 
 HigherOrder :; @forge script script/HigherOrder.s.sol:HigherOrder --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv
+
+Stake :; @forge script script/Stake.s.sol:Stake --rpc-url ${RPC_URL} --private-key ${PRIVATE_KEY} --broadcast -vvvv

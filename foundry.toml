@@ -1,9 +1,10 @@
 # Please read https://book.getfoundry.sh/reference/config/solidity-compiler for additional config info
 [profile.default]
+evm_version = 'shanghai'
 src = 'src'
 out = 'out'
 libs = ['lib']
-auto_detect_solc = true # Enable auto-detection of solc versions, this allows the use of files with different solc versions
+auto_detect_solc = true  # Enable auto-detection of solc versions, this allows the use of files with different solc versions
 
 
 [fmt]
