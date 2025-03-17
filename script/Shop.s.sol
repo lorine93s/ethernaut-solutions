@@ -17,6 +17,7 @@ contract Buyer {
     function buy() public {
         shop.buy();
     }
+
 }
 
 interface IShop {
